@@ -9,10 +9,10 @@ resources:
 
 
 helmCharts:
-- name: airflow-stable
+- name: airflow
   includeCRDs: false
   repo: https://airflow-helm.github.io/charts
   version: "8.8.0"
-  releaseName: airflow-stable/airflow
+  releaseName: airflow-stable
   namespace: airflow
   valuesFile: sample-values-KubernetesExecutor.yaml
